@@ -1,0 +1,90 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, #007bff, #00d4ff);
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+/* Container Styling */
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hide Sections */
+.hidden {
+    display: none;
+}
+
+/* Input Fields */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Logout Button */
+.logout-btn {
+    background: red;
+}
+
+.logout-btn:hover {
+    background: darkred;
+}
+
+/* Sections for Listings */
+.section {
+    margin: 20px 0;
+    padding: 10px;
+    background: #e8f4ff;
+    border-radius: 8px;
+}
+
+/* Available Cars Styling */
+#currentCars div {
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
